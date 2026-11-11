@@ -6,7 +6,7 @@ public class Selenium_ATB15x_02 {
     public static void main(String args[]) {
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://katalon-demo-cura.herokuapp.com"); // first task
-        driver.manage().window().maximize();
+        driver.manage().window().maximize(); //maximize window
         System.out.println("Title is -->" +driver.getTitle());
         System.out.println("Current URL is --> " +driver.getCurrentUrl());
         System.out.println("Page Source is as below --> " +driver.getPageSource());
