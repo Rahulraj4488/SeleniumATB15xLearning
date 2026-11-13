@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class Selenium_ATB15x_03 {
     @Test
-    public static boolean test_selenium_01()
+    public void  test_selenium_01()
     {
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://www.google.com/");
