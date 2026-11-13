@@ -10,6 +10,7 @@ public class Selenium_ATB15x_02 {
         System.out.println("Title is -->" +driver.getTitle());
         System.out.println("Current URL is --> " +driver.getCurrentUrl());
         System.out.println("Page Source is as below --> " +driver.getPageSource());
+        driver.manage().window().minimize();
 
         System.out.println("Browser opened and all the three tasks performed !!");
     }
