@@ -18,5 +18,7 @@ public class Selenium_ATB15x_04 {
 
         //AssertJ
         assertThat(driver.getCurrentUrl()).isNotBlank().isNotEmpty().isNotNull();
+        assertThat(driver.getTitle()).isNotBlank().isNotEmpty().isNotNull().isEqualTo("Google");
+        System.out.println("Expected Title matches actual Title via AssertJ");
     }
 }
